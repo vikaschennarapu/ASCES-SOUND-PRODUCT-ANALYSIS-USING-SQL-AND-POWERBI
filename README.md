@@ -172,6 +172,7 @@ High‑level comparison of flagship products (e.g., Arctis 7P+) to identify whic
 
 Analysis by discount band and month to understand how discounts impact revenue and whether they are driving profitable growth.
 
+<img width="1917" height="1113" alt="Screenshot 2026-02-16 124649" src="https://github.com/user-attachments/assets/56617226-27f4-4919-bc3e-315e9592057f" />
 
 
 
