@@ -52,7 +52,7 @@ Visualization: Power BI Desktop
 
 Artifacts:
 
-# SQL script: PRODUCT_ANALYSIS_PROJECT.sql
+- <a href="https://github.com/vikaschennarapu/ASCES-SOUND-PRODUCT-ANALYSIS-USING-SQL-AND-POWERBI/blob/main/ASCES_SOUND_SQL_CODE_FILE.sql"> SQL CODE FILE</a>
 
 # Power BI dashboard file (.pbix)
 
