@@ -33,7 +33,7 @@ Discount‑adjusted revenue
 
 Month and year trends
 
-### Create a Power BI dashboard to visualize:
+### Created an Power BI dashboard to visualize:
 
 YoY performance (Profit and Units Sold)
 
