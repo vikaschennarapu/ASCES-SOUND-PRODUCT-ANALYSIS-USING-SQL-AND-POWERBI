@@ -54,9 +54,9 @@ Artifacts:
 
 - <a href="https://github.com/vikaschennarapu/ASCES-SOUND-PRODUCT-ANALYSIS-USING-SQL-AND-POWERBI/blob/main/ASCES_SOUND_SQL_CODE_FILE.sql"> SQL CODE FILE</a>
 
-# Power BI dashboard file (.pbix)
+- <a href="https://github.com/vikaschennarapu/ASCES-SOUND-PRODUCT-ANALYSIS-USING-SQL-AND-POWERBI/blob/main/ASCES%20SOUND%20PRODUCT%20ANALYSIS%20PROJECT.pbix"> POWER BI DASHBOARD</a>
 
-# PDF export of the dashboard: ASCES-SOUND-PRODUCT-ANALYSIS-PROJECT.pdf
+- <a href="https://github.com/vikaschennarapu/ASCES-SOUND-PRODUCT-ANALYSIS-USING-SQL-AND-POWERBI/blob/main/DASHBOARD%20REPORT.pdf"> ANALYSIS DASHBOARD REPORT</a>
 
 
 ## 📂 Data Model & Tables
