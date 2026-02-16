@@ -76,6 +76,9 @@ The project uses three core tables in the PRODUCT_ANALYSIS_PROJECT database:
 
 These tables are joined to create a consolidated dataset for reporting and analysis.
 
+
+
+
 ## 🧮 SQL Data Preparation
 1. Create Database and Tables
 2. Explore Raw Tables
