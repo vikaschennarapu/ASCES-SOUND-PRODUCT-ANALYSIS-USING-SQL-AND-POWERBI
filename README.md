@@ -4,15 +4,15 @@
 ## 📌 Project Overview
 This project is an end‑to‑end sales and product performance analysis for ASCES SOUND, an audio products brand. Using MySQL (SQL) for data preparation and Power BI for interactive visualization, the project analyzes:
 
-Product‑level performance
+1. Product‑level performance
 
-Revenue, cost, and profit trends
+2. Revenue, cost, and profit trends
 
-Discount impact on revenue
+3. Discount impact on revenue
 
-Customer segment and country contribution
+4. Customer segment and country contribution
 
-Year‑over‑year (YoY) changes in units sold and profit
+5. Year‑over‑year (YoY) changes in units sold and profit
 
 The final outcome is an interactive Power BI dashboard that helps stakeholders quickly understand which products, markets, and customer segments drive the most value.
 
@@ -21,27 +21,27 @@ Clean, combine, and transform raw sales data using SQL
 
 Build a reusable data model for product and discount analysis
 
-### Calculate key business metrics such as:
+### Calculated key business metrics such as:
 
-Revenue
+1. Revenue
 
-Total cost
+2. Total cost
 
-Profit
+3. Profit
 
-Discount‑adjusted revenue
+4. Discount‑adjusted revenue
 
-Month and year trends
+5. Month and year trends
 
 ### Created an Power BI dashboard to visualize:
 
-YoY performance (Profit and Units Sold)
+1. YoY performance (Profit and Units Sold)
 
-Revenue and profit by country
+2. Revenue and profit by country
 
-Customer type and discount band breakdown
+3. Customer type and discount band breakdown
 
-Individual product performance (e.g., Arctis 7P+)
+4. Individual product performance (e.g., Arctis 7P+)
 
 ## 🛠 Tech Stack
 Database: MySQL
@@ -58,49 +58,21 @@ Artifacts:
 
 # PDF export of the dashboard: ASCES-SOUND-PRODUCT-ANALYSIS-PROJECT.pdf
 
+
 ## 📂 Data Model & Tables
 The project uses three core tables in the PRODUCT_ANALYSIS_PROJECT database:
 
-#### product_data
-Contains product‑level information:
+### product_data
+#### --> Contains product‑level information:
 
-Product_ID
 
-Product
+### product_sales
+#### --> Stores transaction‑level sales data:
 
-Category
 
-Brand
+### discount_data
+#### --> Contains discount information by band and period:
 
-Description
-
-Sale_Price$
-
-Cost_Price$
-
-Image_url
-
-#### product_sales
-#### Stores transaction‑level sales data:
-
-Date
-
-Product (linked to Product_ID)
-
-Customer_Type
-
-Discount_Band
-
-Units_Sold
-
-#### discount_data
-#### Contains discount information by band and period:
-
-Discount_Band
-
-Month
-
-Discount (percentage)
 
 These tables are joined to create a consolidated dataset for reporting and analysis.
 
@@ -115,11 +87,11 @@ These tables are joined to create a consolidated dataset for reporting and analy
 ### The ASCES SOUND Product Analysis dashboard built in Power BI includes:
 
 #### Key KPIs
-Profit YoY (e.g., ~107% growth from 2022 to 2023)
+1. Profit YoY (e.g., ~107% growth from 2022 to 2023)
 
-Units Sold YoY (e.g., ~108% increase)
+2. Units Sold YoY (e.g., ~108% increase)
 
-Total Revenue, Profit, and Units Sold
+3. Total Revenue, Profit, and Units Sold
 
 #### Visuals & Breakdowns
 Time Series: Revenue / Units Sold over time (months across 2022–2023)
@@ -128,29 +100,29 @@ Time Series: Revenue / Units Sold over time (months across 2022–2023)
 
 ##### Revenue contribution by countries such as:
 
-Canada
+1. Canada
 
-United States of America
+2. United States of America
 
-France
+3. France
 
-Mexico
+4. Mexico
 
-Germany
+5. Germany
 
 ### Customer Type Analysis:
 
 ### Contribution by:
 
-Creator
+1. Creator
 
-Education
+2. Education
 
-Enterprise
+3. Enterprise
 
-Government
+4. Government
 
-Small Business
+5. Small Business
 
 Example: Government has the highest share among customer types.
 
@@ -162,15 +134,15 @@ Comparison across 2022 and 2023
 
 #### Product‑Level View:
 
-Focus on products like Arctis 7P+, AudioBox U, Scarlett 2i2, QuadCast S, MV7, NT1‑A
+1. Focus on products like Arctis 7P+, AudioBox U, Scarlett 2i2, QuadCast S, MV7, NT1‑A
 
-For a selected product (e.g., Arctis 7P+):
+2. For a selected product (e.g., Arctis 7P+):
 
-Sale Price (e.g., $229)
+3. Sale Price (e.g., $229)
 
-Cost Price (e.g., $90)
+4. Cost Price (e.g., $90)
 
-Revenue and profit performance
+5. Revenue and profit performance
 
 Customer type distribution (e.g., Creator, Education, Enterprise, Government, Small Business)
 
